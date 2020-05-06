@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="bootstrap.css"
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="rewrite_live.css"
+    </head>
+    <body  >
+        <H1 class="gradient-text">
+            Хомяков Вадим
+        </H1>
+        <nav class="navbar" align="left"><input type="button" value="Смена стилей" id="toggle-theme"/></nav> <!КНОПКА>
+            <script>
+                const toggleBtn = document.querySelector("#toggle-theme");
+                toggleBtn.addEventListener("click", function() {
+                    if(document.documentElement.hasAttribute("theme"))
+                    {
+                    document.documentElement.removeAttribute("theme");
+                    }
+                        else{
+                            document.documentElement.setAttribute("theme", "dark");
+                            }
+                }); 
+                </script>
+        <h2 class="gradient-text2" align="center">
+            reble.relond@gmail.com
+        </h2>
+        <table border="5" bordercolor="black" cellpadding="5" cellspacing="0" width="100%" height="auto" class="words" >
+            <tr  align="center" class="words" ><td>Предметы</td><td >Фамилия преподователя</td><td>Оценка</td></tr>
+                <tr align="center" class="words"><td>Дискретная математика</td><td>Татаринова О.А</td><td>63е</td></tr>
+                    <tr align="center" class="words"><td>АОС</td><td>Ломакин</td><td>75с</td></tr>
+                        <tr align="center" class="words"><td>Английский язык</td><td>Ковтук О.О</td><td>76с</td></tr>
+                            <tr align="center" class="words"><td>ООП</td><td>Водка О.О</td><td>60е</td></tr>
+                                <tr align="center" class="words"><td>Правознавство</td><td>Семко М.А</td><td>76с</td></tr>
+        </table>
+        <H2 align="center" class="cinema"> 5 моих любимых фильмов </h2>
+        <table width="100%" height="auto" border: 3px solid; class="gradient-border">
+            <tr><td>Назад в будущее-</td><td><a href="https://ru.wikipedia.org/wiki/Назад_в_будущее_(фильм)">Wikipedia</a></td></tr>
+                <tr><td>Стражи галактики-</td><td><a href="https://ru.wikipedia.org/wiki/Стражи_Галактики_(фильм)">Wikipedia</a></td></tr>
+                    <tr><td>Остров проклятых-</td><td><a href="https://ru.wikipedia.org/wiki/Остров_проклятых">Wikipedia</a></td></tr>
+                        <tr><td>Бойцовский клуб-</td><td><a href="https://ru.wikipedia.org/wiki/Бойцовский_клуб_(фильм)">Wikipedia</a></td></tr>
+                            <tr><td>Кто я-</td><td><a href="https://ru.wikipedia.org/wiki/Кто_я">Wikipedia</a></td></tr>
+        </table>
+        <br>
+        <div class="center" align="center">3 слова которыми можно описать этого человека( меня):</div>
+        <style>
+            ul {
+            width: 110px; /* Ширина меню */
+            list-style: none; 
+            margin: 0; 
+            padding: 0; 
+            font-family: Arial, sans-serif;
+            font-size: 10pt;
+            }
+            li ul {
+            position: absolute;
+            display: none; 
+            margin-left: 0px; 
+            margin-top: -2em; 
+            }
+            li a {
+            display: block; 
+            padding: 5px; 
+            text-decoration: none;
+            color: #666; 
+            border: 1px solid #ccc;
+            background-color: #f0f0f0; 
+            border-bottom: none;
+            }
+            li a:hover {
+            color: #ffe; 
+            background-color: #5488af;
+            }
+            li:hover ul { 
+            display: block;
+            }
+            </style>
+                                    <br>
+            <ul class="menu" align="left">
+            <li><a href="">1)</a>
+            <ul> 
+            <li><a href="">Обычный</a></li> 
+            </ul> 
+            </li> 
+            <li><a href="">2)</a> 
+            <ul> 
+            <li><a href="">Самокритичный</a></li> 
+            </ul> 
+            <li><a href="">3)</a> 
+            <ul> 
+            <li><a href="">Эгоист</a></li> 
+            </ul> 
+            </li>
+            </li>
+            </ul>
+                                    <br>
+            <div class="container-fluide" align="center">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                    </li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/first.jpg"  height="100%"  class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/second.jpg"  height="100%" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/third.jpg"  height="100%" class="d-block w-100 ">
+                        </div>
+                    </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>	
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <div class="sketchfab-embed-wrapper"  align="center"> 
+        <iframe title="A 3D model" width="840" height="680" src="https://sketchfab.com/models/e3cc89c9a67f46d3bed4159a087b3bad/embed?preload=1&amp;ui_controls=0&amp;ui_infos=0&amp;ui_inspector=0&amp;ui_stop=0&amp;ui_watermark=0&amp;ui_watermark_link=0" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+            <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"  >
+                    <a href="https://sketchfab.com/3d-models/toy-model-of-a-tank-e3cc89c9a67f46d3bed4159a087b3bad?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;" >Toy model of a tank</a>by 
+                    <a href="https://sketchfab.com/artec3d?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;" >Artec 3D</a>
+                    on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;" >Sketchfab</a>
+                </p>
+            </div>
+            
+            
+    </body>
+</html>
