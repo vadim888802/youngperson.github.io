@@ -1,0 +1,119 @@
+.body
+{
+  background-image: url(images/123.jpg);
+  background-image: url(images/22222.jpg);
+    background-repeat: repeat;
+
+}
+
+.first{
+    text-align: center;
+}
+.second{
+    text-align: center;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+.gradient-text {
+    font-family: 'Rubik One', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, rgb(110, 3, 124) 30%, rgb(230, 243, 41) 66%, rgb(252, 82, 90));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+    margin: 20px auto;
+}
+.gradient-text2 {
+    font-family: 'Rubik One', sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, rgb(129, 13, 52) 33%, #0D61BC 66%, rgb(27, 118, 255));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color: #0B2349;
+    display: table;
+    margin: 20px auto;
+
+}
+.gradient-border {
+    padding: 20px;
+    letter-spacing: 0.2em;
+    border: 3px solid;
+    border-image: linear-gradient(40deg, #00ff00 38%, #ff0000 65%);
+    border-image-slice: 1;
+    background: rgba(255, 251, 240, 0.5);
+  }
+.cinema{
+    font-size: 22px;
+    font-family: 'Rubik One', sans-serif;
+    text-transform: uppercase;
+  background: rgb(40, 39, 119);
+  display: table;
+  margin: 20px auto;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  mix-blend-mode: multiply;
+  padding: 5px 10px;
+}
+.words {    
+font-size: 17px;
+font-family: "Segoe Print" , "Segoe Print", "Segoe Print", fantasy;
+font-weight: 100;
+font-stretch: ultra-expanded;
+background: rgba(255, 252, 241, 0.5);
+  }
+.center {
+    font-size: 22px;
+    font-family: 'Rubik One', sans-serif;
+    text-transform: uppercase;
+  background: rgb(40, 39, 119);
+  display: table;
+  margin: 20px auto;
+  color: white;
+  border-radius: 5px;
+  mix-blend-mode: multiply;
+  padding: 5px 10px;
+
+
+}
+.navbar
+{
+margin-left:  1290px; 
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root{
+  --bg:
+  --text: #00008B;
+  --br-color: red;
+  --bg-image: url("images/123.jpg");
+  --tx: rgb(30, 255, 0);
+}
+:root[theme='dark'] {
+  --bg:
+  --text: #FFD700;
+  --br-color: blue;
+  --bg-image: url( "images/22222.jpg");
+  --tx: black ;
+}
+
+body{
+height: 100%;
+font-family: Verdana;
+display: flex;
+flex-direction: column;
+background: var(--bg);
+background-image: var(--bg-image);
+background-repeat: repeat;
+border-color: var(--br-color);
+border-color: ;
+}
+
+p {
+color: var(--text);
+}
+td {
+  color: var(--tx)
+}
